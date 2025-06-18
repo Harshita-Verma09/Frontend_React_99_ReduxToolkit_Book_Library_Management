@@ -1,7 +1,12 @@
 #Book Library Application
+
+
 This is a simple React application that functions as a book library, allowing you to add, mark as read/unread, and update book titles. It leverages Redux Toolkit for state management and Tailwind CSS for styling.
 
+
 #Features
+
+
 Add Books: Easily add new books to your library with a title.
 Toggle Read Status: Mark books as "Read" or "Unread" with a single click.
 Update Book Titles: Edit the title of existing books.
@@ -13,7 +18,11 @@ Tailwind CSS: A utility-first CSS framework for rapidly building custom designs.
 Getting Started
 Follow these steps to get the project up and running on your local machine.
 
+
+
 #Prerequisites
+
+
 Make sure you have the following installed:
 
 Node.js (LTS version recommended)
@@ -41,7 +50,11 @@ npm start
 yarn start
 This will open the application in your browser at http://localhost:3000.
 
+
+
 #Project Structure
+
+
 src/App.js: The main application component where the Redux store is likely configured.
 src/Books.js: The primary component for displaying and managing books.
 src/bookSlice.js: Defines the Redux slice for managing book-related state, including actions and reducers.
